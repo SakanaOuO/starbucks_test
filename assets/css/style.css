@@ -603,7 +603,7 @@ section {
 .about .play-btn {
   width: 94px;
   height: 94px;
-  background: radial-gradient(#ffb03b 50%, rgba(255, 176, 59, 0.4) 52%);
+  background: radial-gradient(#3bf2ff 50%, rgba(59, 209, 255, 0.4) 52%);
   border-radius: 50%;
   display: block;
   position: absolute;
@@ -642,13 +642,13 @@ section {
   animation-timing-function: steps;
   opacity: 1;
   border-radius: 50%;
-  border: 5px solid rgba(255, 176, 59, 0.7);
+  border: 5px solid rgba(59, 105, 255, 0.7);
   top: -15%;
   left: -15%;
   background: rgba(198, 16, 0, 0);
 }
 .about .play-btn:hover::after {
-  border-left: 15px solid #ffb03b;
+  border-left: 15px solid #3b5fff;
   transform: scale(20);
 }
 .about .play-btn:hover::before {
@@ -733,14 +733,18 @@ section {
   padding: 0;
 }
 .why-us .box:hover {
-  background: #ffb03b;
+  background: #ffb13b33;
   padding: 30px 30px 70px 30px;
   box-shadow: 10px 15px 30px rgba(0, 0, 0, 0.18);
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  background: rgba(21, 21, 21, 0.6);
 }
 .why-us .box:hover span, .why-us .box:hover h4, .why-us .box:hover p {
   color: #fff;
 }
-
 /*--------------------------------------------------------------
 # Menu Section
 --------------------------------------------------------------*/
